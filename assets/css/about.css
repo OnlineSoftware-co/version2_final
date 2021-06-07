@@ -1,0 +1,63 @@
+section#about {
+    margin-bottom: 0;
+    padding-bottom: 6rem;
+}
+
+section#services {
+    margin-top: 0;
+}
+
+.nav {
+    flex-wrap: nowrap;
+}
+
+.nav-item {
+    width: fit-content;
+    text-align: center;
+    min-width: fit-content;
+    margin: .5rem 1rem;
+}
+
+.nav-link {
+    padding: 1rem 2rem;
+    color: var(--black);
+    width: 100%;
+    border-radius: 10px !important;
+    transition: all .3s ease;
+    border: 1px solid transparent;
+}
+
+.nav-link.active {
+    background-color: var(--primary-blue);
+}
+
+.nav-link:hover {
+    border: 1px solid var(--primary-blue);
+}
+
+#about>.container>h1 {
+    margin-bottom: 2rem;
+}
+
+.about-img>img {
+    animation: lander 15s linear infinite;
+}
+
+.about-tab {
+    margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .about-img {
+        height: fit-content;
+    }
+    .about-img>img {
+        width: 60%;
+    }
+    .nav-item {
+        margin: 0;
+    }
+    .nav-link {
+        padding: .5 1rem;
+    }
+}

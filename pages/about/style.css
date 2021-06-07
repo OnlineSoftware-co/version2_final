@@ -1,0 +1,173 @@
+:root {
+    --fs-body: 1.8rem;
+    --fs-h2: 4rem;
+    --fs-h4: 2.4rem;
+    --fs-h5: 1.8rem;
+    --clr-head: hsla(208, 11%, 15%, 1);
+    --clr-body: hsla(208, 9%, 31%, 0.8);
+    --clr-accent: hsla(216, 97%, 61%, 1);
+    box-sizing: border-box;
+}
+
+.inner__sub {
+    --fs-h5: 2.5rem;
+    font-size: var(--fs-h5);
+    color: var(--clr-head);
+    margin-bottom: 1em;
+}
+
+.inner__head {
+    --fs-h2: 3rem;
+    font-size: var(--fs-h2);
+    font-family: var(--ff-head);
+    color: var(--clr-head);
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+
+.inner__content {
+    margin-bottom: 3em;
+}
+
+.inner__clr {
+    color: hsla(216, 97%, 61%, 1);
+}
+
+.inner__text {
+    text-align: left;
+}
+
+
+/*====== cards style ==========*/
+
+.card {
+    border-radius: 6px;
+    box-shadow: 0 20px 40px 0 rgba(173, 181, 189, 0.1);
+    border: solid 1px rgba(129, 147, 174, 0.12);
+    background-color: #fff;
+    padding: 2.5em;
+    margin: 2rem 1rem;
+    text-align: center;
+    position: relative;
+    transition: background-color .3s linear;
+    width: 300px;
+}
+
+.card:first-child::before {
+    content: "";
+    position: absolute;
+    background-color: #ffd25f;
+    top: -8px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 8px;
+    border-radius: 6px 6px 0 0;
+}
+
+.card:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    background-color: #63a2ff;
+    top: -8px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 8px;
+    border-radius: 6px 6px 0 0;
+}
+
+.card:last-child::before {
+    content: "";
+    position: absolute;
+    background-color: #5ed291;
+    top: -8px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 8px;
+    border-radius: 6px 6px 0 0;
+}
+
+.card:first-child:hover {
+    background-color: #ffd25f;
+}
+
+.card:nth-child(2):hover {
+    background-color: #63a2ff;
+}
+
+.card:last-child:hover {
+    background-color: #5ed291;
+}
+
+.card:hover p {
+    color: var(--black);
+}
+
+.card__body {
+    padding-top: 1em;
+}
+
+.card__body>h3 {
+    padding-bottom: 2rem;
+}
+
+.card__content {
+    --fs-body: 1.6rem;
+    font-size: var(--fs-body);
+}
+
+.card__icon {
+    height: 100px;
+    width: 100px;
+}
+
+.sub-heading {
+    color: var(--black);
+}
+
+.our-core-values {
+    background-image: url(../../assets/images/img/charles-deluvio-Lks7vei-eAg-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.our-core-values>.banner {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.our-core-values li,
+.our-core-values p {
+    color: var(--secondary-blue);
+}
+
+@media (min-width: 750px) {
+    .inner {
+        padding: 1em 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    .inner__sub {
+        --fs-h5: 1.8rem;
+        font-size: var(--fs-h5);
+    }
+    .inner__headings {
+        flex: 1 0 30%;
+    }
+    .inner__content {
+        flex: 1 0 50%;
+        align-self: center;
+        margin-left: 2rem;
+    }
+    .inner__sub {
+        margin-bottom: 0;
+    }
+    .inner__head {
+        --fs-h2: 4rem;
+    }
+}

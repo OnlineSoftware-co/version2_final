@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="555" preserveAspectRatio="none" viewBox="0 0 1440 555"><g mask="url(&quot;#SvgjsMask1146&quot;)" fill="none"><path d="M15.383178093782735 518.659186640781L126.09277873889913 507.12980222874154 70.28322999922528 427.4255064389995z" fill="rgba(154, 23, 199, 0.4)" class="triangle-float3"></path><path d="M1352.4310510632015 199.71555774088142L1193.955707952819 108.01829097317213 1191.162423346996 268.0454588645673z" fill="rgba(154, 23, 199, 0.4)" class="triangle-float1"></path><path d="M64.12694293737964 47.953483916439325L57.71378833008224-43.75889977521493-27.585440754274615 54.366638523736725z" fill="rgba(154, 23, 199, 0.4)" class="triangle-float1"></path><path d="M1230.762105216691 126.84516060475883L1250.4401897863117 15.24519734016856 1119.1621419521007 107.16707603513801z" fill="rgba(154, 23, 199, 0.4)" class="triangle-float3"></path></g><defs><mask id="SvgjsMask1146"><rect width="1440" height="555" fill="#ffffff"></rect></mask><style>
+            @keyframes float1 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-10px, 0)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-5px, -5px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(0, -10px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style></defs></svg>

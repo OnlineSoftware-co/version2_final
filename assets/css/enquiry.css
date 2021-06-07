@@ -1,0 +1,128 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 4rem;
+    margin: 1rem 2rem;
+    border-radius: 22px;
+    box-shadow: 0 0 10px var(--third-dark);
+}
+
+.enquiry-title {
+    font-size: 5rem;
+    color: var(--black);
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.title-container {
+    padding-bottom: 6rem;
+}
+
+.form-container {
+    padding: 1rem 4rem;
+}
+
+.f-login {
+    margin-bottom: 1rem;
+}
+
+.f-login>label {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.f-login>input.inp,
+.f-login>textarea.inp {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgba(234, 244, 255, 1);
+    border-radius: 6.99px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: auto;
+    padding: .8rem 1rem;
+    color: var(--primary-dark);
+}
+
+.f-login>textarea.inp {
+    height: 150px;
+    width: 100%;
+}
+
+.f-login>input.inp:focus {
+    border: 1px solid rgba(112, 112, 112, 1);
+}
+
+.f-login>button {
+    margin: 0 auto;
+    height: 46px;
+    width: 164px;
+    background-color: rgba(0, 117, 255, .7);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid transparent;
+    border-radius: 6.99px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.f-login>button:hover {
+    background-color: rgba(0, 117, 255, 1);
+}
+
+.f-login>button:active {
+    background-color: rgba(234, 244, 255, 1);
+    color: rgba(0, 117, 255, 1);
+    border: 1px solid rgba(0, 117, 255, 1);
+}
+
+.f-login>input.inp,
+.f-login>button {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+    .container {
+        flex-direction: column;
+        width: 95%;
+        padding: 1rem 2rem;
+    }
+    .form-container {
+        margin-top: 6rem;
+        height: auto;
+        width: 80vw;
+        padding: 1rem;
+    }
+    section#enquiry {
+        margin-top: 4rem;
+    }
+    .enquiry-title {
+        font-size: 3rem;
+    }
+    .title-container {
+        padding: 4rem 1rem 2rem;
+    }
+    .form-container {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    section#enquiry {
+        height: 100vh;
+    }
+}

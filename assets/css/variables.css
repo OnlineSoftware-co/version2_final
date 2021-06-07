@@ -1,0 +1,19 @@
+/* colors need to be updated */
+
+
+/* these are sample colors */
+
+
+/* if you got one, create new variable */
+
+:root {
+    --primary-white: #f0f0f0;
+    --secondary-white: #dadada;
+    --primary-dark: #6d6d6d;
+    --secondary-dark: #404040;
+    --third-dark: #303030;
+    --grey: #111;
+    --black: #000;
+    --primary-blue: #006eff;
+    --secondary-blue: #edf3ff;
+}

@@ -1,0 +1,48 @@
+<!-- Under test -->
+<!-- Load content after page load -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            overflow: hidden;
+        }
+        
+        .frame {
+            height: 100vh;
+            width: 100vw;
+            border-width: 0;
+        }
+    </style>
+
+    <script>
+        function init() {
+
+            iframe = document.createElement("iframe");
+            iframe.setAttribute("src", "index.html")
+            iframe.classList.add('frame');
+            document.body.appendChild(iframe);
+        }
+
+        window.onload = init;
+    </script>
+</head>
+
+<body>
+</body>
+
+<<<<<<< HEAD </html>
+    =======
+
+</html>
+>>>>>>> 33c421cef32a11bc6b89479b0e79bbd4ce2d5316

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- test -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #init {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-color: #edf3ff;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: -webkit-box;
+            display: -webkit-flex;
+            -webkit-align-items: center;
+            -webkit-justify-content: center;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+            z-index: 1;
+        }
+        
+        .spinner-container {
+            -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+            z-index: 2;
+        }
+        
+        .spinner-path {
+            stroke-dasharray: 1, 150;
+            stroke-dashoffset: 0;
+            stroke: #acb9bf;
+            stroke-linecap: round;
+            -webkit-animation: dash 1.5s ease-in-out infinite;
+            animation: dash 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @-webkit-keyframes rotate {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 150;
+                stroke-dashoffset: 0;
+            }
+            50% {
+                stroke-dasharray: 90, 150;
+                stroke-dashoffset: -35;
+            }
+            100% {
+                stroke-dasharray: 90, 150;
+                stroke-dashoffset: -124;
+            }
+        }
+        
+        @-webkit-keyframes dash {
+            0% {
+                stroke-dasharray: 1, 150;
+                stroke-dashoffset: 0;
+            }
+            50% {
+                stroke-dasharray: 90, 150;
+                stroke-dashoffset: -35;
+            }
+            100% {
+                stroke-dasharray: 90, 150;
+                stroke-dashoffset: -124;
+            }
+        }
+    </style>
+    <link rel="icon" href="./assets/images/img/sl_96.webp" type="image/webp" sizes="16x16">
+
+    <!--Awesome fonts-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Online Software</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/hamburger.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/services.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <link rel="stylesheet" href="./assets/css/projects.css">
+
+    <link rel="stylesheet" href="./assets/css/enquiry.css">
+
+</head>
+
+<body>
+
+    <div id="init">
+        <svg class="spinner-container" width="50" height="50" viewBox="0 0 44 44">
+            <circle class="spinner-path" cx="22" cy="22" r="20" fill="none" stroke-width="4"></circle>
+        </svg>
+    </div>
+
+
+    <div id="main" class="prel h100" style="display: none;">
+
+        <div id="prompt" class="prompt pfx w100 h100 dsp-none">
+            <div class="prompt-container pabs">
+
+                <div class="pabs t0 cancel lhinit cp dsp-none">&#x292B;</div>
+                <div id="promptMessage" class="prompt-message text-center p12">
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Navbar -->
+        <nav class="pfx fl">
+            <div class="toggle pabs" id="toggle">
+                <div class="burger hamburger" id="burger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="m-logo lhinit dsp-none">Online Software</div>
+
+            <div class="content prel fl flc flsb h100 w100">
+                <div class="logo fl flc"></div>
+                <div class="cnt fl flc">
+                    <a class="navEl fl flc cp active home" href="#home"  >
+                        Home
+                    </a>
+                    <a class="navEl fl flc cp about" href="./pages/about/index.html" >
+                        About
+                    </a>
+                    <a class="navEl fl flc cp " href="./pages/services/index.html" >
+                        Services
+                    </a>
+                   
+                    <a class="navEl fl flc cp projects" href="./pages/products/index.php"  >
+                        Products
+                    </a>
+                    <a class="navEl fl flc cp contact" href="#contact" >
+                        Contact Us
+                    </a>
+                    <a class="navEl fl flc cp contact" id="enquire_btn" href="./pages/enquiry/index.php"  >
+                        Enquiry
+                    </a>
+                </div>
+                <div id="india" class="fl flc cp abc">
+                    <img src="./assets/images/svg/india.svg" alt="ABC Infomedia">
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- main -->
+        <main>
+            <section id="home" class="main prel fl flc h100vh">
+                <div class="shapes pabs t0 w100 h100">
+                    <div class="lander-top-corner pabs t0"></div>
+                    <svg class="svg-blob pabs" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <style type="text/css">
+                            path {
+                                fill: url(#MyGradient)
+                            }
+                        </style>
+                        <defs>
+                            <linearGradient id="MyGradient">
+                                <stop offset="5%" stop-color="#99c3fa" />
+                                <stop offset="95%" stop-color="#006eff" />
+                            </linearGradient>
+                        </defs>
+                        <path
+                            d="M60.4,-47C74.9,-29.9,81,-5,73.3,11.9C65.6,28.9,44.1,37.8,22.8,48.5C1.5,59.2,-19.5,71.7,-34.7,66.5C-49.9,61.3,-59.3,38.5,-63.4,15.8C-67.5,-6.9,-66.4,-29.5,-54.9,-45.8C-43.5,-62.2,-21.7,-72.4,0.6,-72.8C22.9,-73.3,45.9,-64.1,60.4,-47Z"
+                            transform="translate(100 100)" />
+                    </svg>
+                </div>
+                <div class="cont prel w100 h100 fl flc">
+                    <div class="prel fl flc flsb w100 h100">
+                        <div class="fl flc w100 h100 lander-title lhinit anim-scroll">Web & Mobile Development</div>
+                        <div class="fl flc w100 h100 lander-img">
+                            <img src="./assets/images/img/lander-img.png" loading="lazy" alt="banner development image" height="60%" style="margin-top: 2rem;">
+                        </div>
+                        <div class="pabs studio-logo">Studio</div>
+                    </div>
+
+                    <div class="pabs b0 w100 text-center p12 sloganText anim-scroll">
+                        We Develop
+                        <a href="" class="typewrite" data-period="1000" data-type='[ "Websites", "Android Apps", "iOS Apps"]'>
+                            <span class="wrap"></span>
+                        </a> for You
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="main prel fl flc">
+                <div class="container">
+                    <div class="background">
+                        <h1 class="text-center anim-scroll" style="font-size:3em; color: var(--primary-blue);font-size: var(--s4);font-weight: 400;">
+                            <b>About Us</b>
+                        </h1>
+                        <div class="row sm-fldcl-rev">
+                            <div class="col-12 col-lg-6">
+                                <div class="section-heading mb-5 fl flc fldcl h100">
+                                    <p style="font-size:20px;line-height: 1.65; color: var(--secondary-dark);">
+                                        Established in the year 2021, ONLINE SOFTWARE, one of the leading and competent online software solutions in the field of Android and IOS platforms specializes in offering an effective and efficient software developing solutions that keep our business
+                                        one step unique from others! We make sure that our customers are satisfied by our work, which is why, in a very short span of the time, we have earned a reputation in the IT domain.
+                                    </p>
+                                    <div class="w100 p12">
+                                        <a class="btn-my" href="./pages/about/">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 fl flc p12"><img class="banner" src="./assets/images/svg/undraw_swipe.svg" alt="about image" width="95%"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="services" class="main prel fl flc">
+                <div class="c-section">
+                    <h2 class="c-section__title anim-scroll"><span>Our Services</span></h2>
+                    <div class="c-services">
+                        <a href="./pages/services/iOS-Apps-Development/" class="c-services_item cp">
+                            <h3>iOS App Development</h3>
+                            <p>We leverage the concept of mobile-first design. Through our work, we focus on designing an experience that works across different screen sizes.</p>
+                        </a>
+                        <a href="./pages/services/UX-Auditing/" class="c-services_item cp">
+                            <h3>UX Auditing</h3>
+                            <p>If you are unsure of how your app behaves, we can help by doing a detailed UX audit that will highlight most of the issues in your product. From there, we can take it further and fix all issues.
+                            </p>
+                        </a>
+                        <a href="./pages/services/Website-Development/" class="c-services_item cp">
+                            <h3>Website Development</h3>
+                            <p>We are Front End and Back End masters with a deep focus on HTML, CSS, PHP, JS, and various types of Databases. The result of our work is a responsive, accessible, and performant websites. Either you have the design ready and
+                                want us to code it, or you want us to do both design and code, we&rsquo;re happy to do so.
+                            </p>
+                        </a>
+                        <a href="./pages/services/UX-Consultation/" class="c-services_item cp">
+                            <h3>UX Consultation</h3>
+                            <p>If you don&rsquo;t know what kind of service to request from us, don&rsquo;t worry. We can help and see what fits your business and your budget.</p>
+                        </a>
+                        <a href="./pages/services/Android-Apps-Development/" class="c-services_item cp">
+                            <h3>Android Apps Development</h3>
+                            <p>To reach more customers and the goals of your business, a mobile application is necessary these days. We will work on the app design from scratch to final tested prototype.</p>
+                        </a>
+                        <a href="./pages/services/UX-Research/" class="c-services_item cp">
+                            <h3>UX Research</h3>
+                            <p>It&rsquo;s important to research deeply for the product you want to build. We help in that by defining the user audience, working on user stories, competitive analysis and much more. </p>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="projects" class="main prel fl flc">
+
+                <div class="enclose fl flc fldcl w100">
+                    <div class="head prel fl flc fldcl w100 p12">
+                        <h1 class="text-center anim-scroll">A Complete Software Solution For A Better Revolution</h1>
+                        <h2 class="text-center anim-scroll p12">Bringing the art to your cart...</h2>
+                    </div>
+                    <div class="body right_half fl flc">
+                        <div class="book">
+                            <div id="pages" class="pages">
+                                <div class="page flipped">
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/products/book_top.png" alt="Products row1 image">
+                                        <p class="text-center">Our Awesome Products<br>Click Me</p>
+                                    </div>
+                                </div>
+                                <div class="page flipped">
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images//img/realestate1.png" alt="Products row1 image">
+                                        <p class="text-center">Real Estate Software</p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/textile2.jpg" alt="Products row1 image">
+                                        <p class="text-center">Textile Processing Software</p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/catering1.png" alt="Products row1 image">
+                                        <p class="text-center">Catering Software</p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/hybrid1.png" alt="Products row1 image">
+                                        <p class="text-center">Hybrid Billing Software</p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/bakery1.png" alt="Products row1 image">
+                                        <p class="text-center">Bakery Management Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/task1.png" alt="Products row1 image">
+                                        <p class="text-center">Task Management Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/interior1.jpg" alt="Products row1 image">
+                                        <p class="text-center">Interior Decorators Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/nidhi1.png" alt="Products row1 image">
+                                        <p class="text-center">Nidhi Company Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/shopping.png" alt="Products row1 image">
+                                        <p class="text-center">Shopping Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/ecommerce1.png" alt="Products row1 image">
+                                        <p class="text-center">E-Commerce Shopping Website </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/electrical1.png" alt="Products row1 image">
+                                        <p class="text-center">Electrical Software for Contractors </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/multireferral1.png" alt="Products row1 image">
+                                        <p class="text-center">Multi-Referral Management Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/training1.png" alt="Products row1 image">
+                                        <p class="text-center">Online Training/Test Portal </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/multiservices1.png" alt="Products row1 image">
+                                        <p class="text-center">Multi-Services Management Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/multidonor1.png" alt="Products row1 image">
+                                        <p class="text-center">Multi Donor Aid Management Software</p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/portal1.png" alt="Products row1 image">
+                                        <p class="text-center">Classifieds Web Portal </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/job1.png" alt="Products row1 image">
+                                        <p class="text-center">Online Job Portal </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/matrimony1.png" alt="Products row1 image">
+                                        <p class="text-center">Matrimony Web Portal </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/directory1.png" alt="Products row1 image">
+                                        <p class="text-center">Directory Portal </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/patients1.png" alt="Products row1 image">
+                                        <p class="text-center">Patients Managements System </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/beauty1.png" alt="Products row1 image">
+                                        <p class="text-center">Beauty Parlour and Spa Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/chit1.png" alt="Products row1 image">
+                                        <p class="text-center">Chit funds Software </p>
+                                    </div>
+                                </div>
+                                <div class="page">
+
+                                    <div class="prel w100 h100 fl flc fldcl">
+                                        <img class="products_img" src="./assets/images/img/building1.png" alt="Products row1 image">
+                                        <p class="text-center">Building Material Management Sales and Payment Software
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section id="contact" class="main prel fl flc">
+
+                <div class="container">
+                    <h1 class="text-center p12 anim-scroll">We'd <span style="color: #006eff;"><i class="fas fa-heart"
+                                style="font-size: xxx-large;"></i></span> to hear from you</h1>
+                    <div class="row fl flc">
+                        <div class="col-sm-5 fl flc">
+                            <div class="detail fl flc fldcl flas">
+
+                                <span class="fl flc lhinit">
+                                    <i class="fas fa-map-marker-alt"></i> Address
+                                </span>
+
+                                <span>
+                                    No.32, Vinayagar Kovil Street, Karungalpalayam, Erode - 638003, Tamil Nadu, India
+                                </span>
+
+
+                                <span class="fl flc lhinit">
+                                    <i class="fas fa-phone-alt"></i> Phone
+                                </span>
+                                <span>
+                                    +91 97900 30919
+                                </span>
+
+
+                                <span class="fl flc lhinit">
+                                    <i class="fas fa-envelope"></i> Email
+                                </span>
+
+                                <span>
+                                    info@abcinfomedia.com
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-5 fl flc">
+                            <div class="enquiry w100">
+                                <div>
+                                    <input class="w100" id="name" type="text" placeholder="Name" name="name" required /><br>
+                                    <input class="w100" id="email" type="email" placeholder="Email" name="email" required /><br>
+
+                                    <textarea class="w100" name="message" id="message" placeholder="Enter your Message here..." required></textarea>
+
+                                    <input disabled class="w100" id="captcha" type="text" />
+
+                                    <input type="button" id="btnrefresh" value="Refresh" onclick="DrawCaptcha();" />
+                                    <p>Enter Recaptcha
+                                        <input class="w100" type="text" id="captchaInput" />
+                                    </p>
+
+                                    <button class="btn btn-default" type='submit' name="submit" id="submit">
+
+                                        <i class=" fas fa-paper-plane"> </i> Send
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+
+
+
+            <section id="contact" class="main prel fl flc p12 fldcl">
+                <!-- <h1 class="text-center p12 anim-scroll">We'd <span style="color: #006eff;"><i class="fas fa-heart"
+                    style="font-size: xxx-large;"></i></span> to hear from you</h1> -->
+                <div class="container fl flc">
+
+                    <div class="fl flc fldcl w100 h100">
+                        <div class="title-container fl flc p12 fldcl flas w100 lhinit">
+                            <div class="enquiry-title anim-scroll">
+                                Lets talk about everything!</div>
+                            <div>Hate forms? Send us an <a href="mailto:mdtechs.contact@gmail.com?subject=Enquiry For Online Software Web Portal">email</a> instead.
+                            </div>
+                        </div>
+                        <div class="fl flc p12"><img src="./assets/images/svg/undraw_contact_us.svg" alt="" width="100%"></div>
+                    </div>
+
+                    <div class="form-container w100 fl flc">
+
+                        <div class="f-login fl fldcl w100">
+
+                            <!-- <?php
+
+                            $str = file_get_contents('../../assets/json/products.json');
+                            $json = json_decode($str, true);
+
+                            ?> -->
+                            <!-- <h5>
+                                    <?php if (isset($_GET['product'])) echo 'Enquiry For: <b>' . print_r($json[$id]['name'], true) . '</b>'; ?></h5> -->
+                            <label for="email">Name<sup style="color:red">*</sup></label>
+                            <input class="inp" type="text" name="name" id="name" placeholder="Enter Your name..." required>
+
+                            <label for="email">Email<sup style="color:red">*</sup></label>
+                            <input class="inp" type="text" name="email" id="email" placeholder="Enter Your Email..." required>
+
+
+                            <label for="Message">Message<sup style="color:red">*</sup></label>
+                            <textarea class="inp" name="message" id="message" placeholder="Enter Your Message" required></textarea>
+
+
+                            <div class="fl flc flsb w100 p12" style="color:var(--black)">
+                                <div class="fl flc">
+                                    <input disabled class="w100" id="captcha" type="text" />
+                                    <!-- <input type="button" id="btnrefresh" value="Refresh" onclick="DrawCaptcha();" /> -->
+                                    <img src="./assets/images/svg/reload.svg" id="btnrefresh" class="captchaIcon cp" alt="" onclick="DrawCaptcha();">
+                                </div>
+                                <p class="w100 h100 fl flc" style="margin: 0;">
+
+                                    <img src="./assets/images/svg/equal.svg" class="captchaIcon" alt="" onclick="DrawCaptcha();">
+                                    <input class="w100" type="text" id="captchaInput" />
+                                </p>
+                            </div>
+
+
+
+                            <button type="submit" id="submit">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- main -->
+
+
+        <!-- footer -->
+        <footer>
+
+            <div class="column ">
+                <a class="footer_title ">Online Software</a>
+                <a>
+                    A one-stop solution for all your information technology needs and now, we are trying to expand
+                    ourselves and endeavor our presence felt across the whole world.
+                </a>
+                <a href=" " class="icon " title="Facebook " class="fl flc "><i class="fab fa-facebook-f "></i></a>
+                <a href=" " class="icon " title="Instagram " class="fl flc "><i class="fab fa-instagram "></i></a>
+                <a href=" " class="icon " title="Twitter " class="fl flc "><i class="fab fa-twitter "></i></a>
+            </div>
+            <div class="column ">
+                <a class="footer_title ">Other Links</a>
+                <!-- <a href="# " onclick="alert( 'Currently unavailable') ">Privacy Policy</a> -->
+                <a href="./pages/terms/index.html ">Terms & Conditions</a>
+                
+                <a href="./index.html#contact ">Contact Us</a>
+            </div>
+            <div class="column ">
+                <a class="footer_title ">Short Links</a>
+                <a href="./index.html#services ">Our Services</a>
+                <a href="./index.html#projects ">Our Products</a>
+                <a href="./index.html#about ">About Us</a>
+            </div>
+
+            <div class="column ">
+                <a class="footer_title ">Latest Products</a>
+                <a href=" " title="Lorem ipsum dolor sit amet "><img src="./assets/images/svg/products/banner/chitFund.svg " width="50px " height="50px "></a>
+                <a href=" " title="Lorem ipsum dolor sit amet "><img src="./assets/images/svg/products/banner/chitFund.svg " width="50px " height="50px "></a>
+                <a href=" " title="Lorem ipsum dolor sit amet "><img src="./assets/images/svg/products/banner/chitFund.svg " width="50px " height="50px "></a>
+                <a href=" " title="Lorem ipsum dolor sit amet "><img src="./assets/images/svg/products/banner/chitFund.svg " width="50px " height="50px "></a>
+
+            </div>
+            <div class="column ">
+                <a class="footer_title ">Get In Touch</a>
+                <a title="Address "><i class="fas fa-map-marker "></i> No.32, Vinayagar Kovil Street, Karungalpalayam,
+                    Erode - 638003, Tamil Nadu, India</a>
+                <a href="mailto:support@onlinesoftware.co " title="Email "><i class="fas fa-envelope "></i>
+                    support@onlinesoftware.co</a>
+                <a href="tel:+919790030919 " title="Contact "><i class="fas fa-phone-alt "></i> +91-97900-30919</a>
+            </div>
+
+            <div class="sub-footer w100 text-center ">
+                © CopyRights
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> ONLINE SOFTWARE | All rights reserved
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </div>
+
+    <script src="./init.js"></script>
+    <script src="./index.js"></script>
+    <script src="./anim.js"></script>
+    <script src="./assets/js/products.js"></script>
+
+    <script>
+        var add, a, b;
+        DrawCaptcha();
+        //Created / Generates the captcha function    
+        function DrawCaptcha() {
+            a = Math.ceil(Math.random() * 10);
+            b = Math.ceil(Math.random() * 10);
+            var code = a + '   +   ' + b;
+            add = a + b;
+            document.getElementById("captcha").value = code
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./mailHandler.js"></script>
+
+</body>
+
+</html>

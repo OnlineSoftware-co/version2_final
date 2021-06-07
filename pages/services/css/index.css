@@ -1,0 +1,17 @@
+body {
+    background-image: url(../../../assets/images/img/lander-top-corner.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right top;
+    background-color: #edf3ff;
+    background-attachment: fixed;
+}
+
+section#services {
+    margin-top: 8rem;
+    margin-bottom: 0;
+}
+
+section.main:nth-child(2) {
+    margin-top: 0;
+}

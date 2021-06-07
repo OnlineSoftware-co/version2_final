@@ -1,0 +1,33 @@
+body {
+    background-image: url(../../assets/images/img/lander-top-corner.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+section#terms {
+    margin-top: 8rem;
+}
+
+section#terms>p {
+    margin: 1rem;
+    padding-top: 4rem;
+}
+
+section#terms>div {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--primary-dark);
+    backdrop-filter: blur(5px);
+    color: var(--secondary-dark);
+}
+
+@media (max-width: 768px) {
+    section#terms>div {
+        width: 100%;
+    }
+    section#terms>p {
+        padding-top: 2rem;
+    }
+}

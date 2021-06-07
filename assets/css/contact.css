@@ -1,0 +1,154 @@
+.captchaIcon {
+    color: black;
+    border: 0;
+    width: 20px;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+#captchaInput {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #000000;
+    font-size: 1.5rem;
+    color: black;
+    background: transparent;
+    /* width: 60px; */
+    margin: 0;
+    /* display: inline; */
+}
+
+#captcha {
+    color: black;
+    border: none;
+    font-weight: bold;
+    width: 60px;
+}
+
+#contact h1 {
+    font-size: 48px;
+    font-weight: 900;
+    word-spacing: 7px;
+}
+
+#btnSubmit {
+    display: block;
+}
+
+#contact {
+    color: black;
+}
+
+.row {
+    margin: auto;
+}
+
+.row>div {
+    padding: 1rem 2rem;
+}
+
+.detail {
+    color: black;
+    font-size: 30px;
+}
+
+.detail>span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.detail>span:nth-child(even) {
+    font-weight: 200;
+    padding-bottom: 3rem;
+}
+
+.fas {
+    font-size: 2rem;
+}
+
+.detail>span>i.fas {
+    padding-right: 1rem;
+}
+
+.enquiry {
+    padding-top: 2rem;
+}
+
+.enquiry input[type="text"],
+textarea,
+.enquiry input[type="email"] {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid var(--primary-blue);
+    background: transparent;
+    font-size: 1.5rem;
+    color: black;
+    padding: 0.5rem 1rem 0;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    height: 150px !important;
+}
+
+.enquiry button[type="submit"] {
+    background-color: var(--primary-blue);
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    max-width: 150px;
+    padding: 1rem 3rem;
+    font-size: 1em;
+}
+
+.enquiry button[type="submit"]>i.fas {
+    font-size: 1em;
+}
+
+.enquiry button[type="submit"]:hover {
+    background-color: #003cff;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.inp {
+    border: 1px solid #909090 !important;
+    transition: all 0.3s ease;
+    /* background: #f0f0f0 !important; */
+    /* box-shadow: 0 0 10px rgb(141, 150, 163); */
+}
+
+.inp:focus {
+    border: 1px solid var(--primary-blue) !important;
+}
+
+.error,
+.error:focus {
+    color: rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1) !important;
+}
+
+@media only screen and (max-width: 400px) {
+    .enquiry input[type="text"],
+    textarea {
+        width: 200px;
+    }
+    #contact h1 {
+        padding-left: 0px;
+    }
+    .enquiry {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    section#enquiry {
+        height: 100%;
+    }
+}

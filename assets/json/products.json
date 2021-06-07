@@ -1,0 +1,231 @@
+[{
+    "id": "1",
+    "name": "Complete end to end software for Chit Funds with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/chit1",
+    "banner": "chit",
+    "rating": "3.7",
+    "tags": ["android"]
+}, {
+    "id": "2",
+    "name": "Software for Realestate promoters and civil engineers with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/realestate1",
+    "banner": "realestate",
+    "rating": "4.7",
+    "tags": ["android"]
+}, {
+    "id": "3",
+    "name": "Customized software for textile processing units with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/textile1",
+    "banner": "textile",
+    "rating": "3.7",
+    "tags": ["android"]
+}, {
+    "id": "4",
+    "name": "Web based software for catering companies",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/catering1",
+    "banner": "catering",
+    "rating": "2.6",
+    "tags": ["android"]
+}, {
+    "id": "5",
+    "name": "Beauty parlour and Spa Software & App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/beauty1",
+    "banner": "beauty",
+    "rating": "1.5",
+    "tags": ["android"]
+}, {
+    "id": "6",
+    "name": "Hybrid billing software with GST Options",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/hybrid1",
+    "banner": "hybrid",
+    "rating": "1.0",
+    "tags": ["android"]
+}, {
+    "id": "7",
+    "name": "Bakery management software",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/bakery1",
+    "banner": "bakery",
+    "rating": "2.2",
+    "tags": ["android"]
+}, {
+    "id": "8",
+    "name": "Task Management Software",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/task1",
+    "banner": "task",
+    "rating": "2.7",
+    "tags": ["android"]
+}, {
+    "id": "9",
+    "name": "Stock Management and Sales Software for Interior Decorators",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/stock1",
+    "banner": "stock",
+    "rating": "3.5",
+    "tags": ["android"]
+}, {
+    "id": "10",
+    "name": "Nidhi Company Software with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/nidhi1",
+    "banner": "nidhi",
+    "rating": "3.6",
+    "tags": ["android"]
+}, {
+    "id": "11",
+    "name": "Multi Vendor and Single Shop Shopping App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/multivendor1",
+    "banner": "multivendor",
+    "rating": "5",
+    "tags": ["android"]
+}, {
+    "id": "12",
+    "name": "E-Commerce Shopping Website",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/ecommerce1",
+    "banner": "ecommerce",
+    "rating": "4.9",
+    "tags": ["android"]
+}, {
+    "id": "13",
+    "name": "Customized software for Electrical A Grade Contractors with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/electrical",
+    "banner": "electrical",
+    "rating": "4.8",
+    "tags": ["android"]
+}, {
+    "id": "14",
+    "name": "Multi-Referral Management Software",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/multireferral1",
+    "banner": "multireferral",
+    "rating": "4.7",
+    "tags": ["android"]
+}, {
+    "id": "15",
+    "name": "Online Training or Test Web Portal with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/training1",
+    "banner": "training",
+    "rating": "4.6",
+    "tags": ["android"]
+}, {
+    "id": "16",
+    "name": "Multi-Services Management Software",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/multiservices1",
+    "banner": "multiservices",
+    "rating": "4.5",
+    "tags": ["android"]
+}, {
+    "id": "17",
+    "name": "Multi-Donor Aid Management Software",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/multidonor1",
+    "banner": "multidonor",
+    "rating": "4.4",
+    "tags": ["android"]
+}, {
+    "id": "18",
+    "name": "Classifieds Web Portal",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/portal1",
+    "banner": "portal",
+    "rating": "4.3",
+    "tags": ["android"]
+}, {
+    "id": "19",
+    "name": "Online Job Portal with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/job1",
+    "banner": "job",
+    "rating": "4.2",
+    "tags": ["android"]
+}, {
+    "id": "20",
+    "name": "Matrimony web portal with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/matrimony1",
+    "banner": "matrimony",
+    "rating": "4.1",
+    "tags": ["android"]
+}, {
+    "id": "21",
+    "name": "Directory portal with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/directory1",
+    "banner": "directory",
+    "rating": "4.0",
+    "tags": ["android"]
+}, {
+    "id": "22",
+    "name": "Patients Management System for Clinics",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/patients1",
+    "banner": "patients",
+    "rating": "3.9",
+    "tags": ["android"]
+}, {
+    "id": "23",
+    "name": "Software for Building Materials Management Sales and Payment Collections with App",
+    "summary1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "summary2": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "keyFeatures": ["Manages tasks, resources and accounts of your project", "Powerful to-do list management", "Detailed reference manual", "Simple installation", "Runs on all Linux, Unix, Windows, MacOS and several other operating systems"],
+    "logo": "../images/img/building1",
+    "banner": "building",
+    "rating": "3.8",
+    "tags": ["android"]
+}]
