@@ -209,7 +209,7 @@ section.main {
 .main-heading {
     font-size: 3em;
     color: var(--primary-blue);
-    font-size: var(--s4);
+    font-size: var(--s3);
     font-weight: 600;
     line-height: initial;
 }
