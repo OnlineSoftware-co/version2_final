@@ -1,3 +1,9 @@
+body{
+    background-image: url(../images/img/lander-top-corner.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right top;
+}
 section#about {
     margin-bottom: 0;
     padding-bottom: 6rem;

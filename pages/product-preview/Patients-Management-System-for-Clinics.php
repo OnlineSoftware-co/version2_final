@@ -84,9 +84,9 @@
                         <div class="img-display">
                             <div class="img-showcase">
                                 <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/patients2.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/patients3.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/patients4.png" alt="image">
                             </div>
                         </div>
                         <div class="img-select">
@@ -97,17 +97,17 @@
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="2">
-                                    <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/patients2.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
-                                    <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/patients3.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
-                                    <img class="preview" src="../../assets/images/img/patients1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/patients4.png" alt="image">
                                 </a>
                             </div>
                         </div>
