@@ -2,6 +2,12 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
+
+        background-image: url(../images/img/lander-top-corner.png);
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: right top;
+
 }
 
 .container {

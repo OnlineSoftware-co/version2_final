@@ -83,9 +83,9 @@
                         <div class="img-display">
                             <div class="img-showcase">
                                 <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/multiservices2.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/multiservices3.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/multiservices4.png" alt="image">
                             </div>
                         </div>
                         <div class="img-select">
@@ -96,17 +96,17 @@
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="2">
-                                    <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/multiservices2.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
-                                    <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/multiservices3.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
-                                    <img class="preview" src="../../assets/images/img/multiservices1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/multiservices4.png" alt="image">
                                 </a>
                             </div>
                         </div>
@@ -115,12 +115,11 @@
                     <div class="product-content">
                         <div class="product-detail">
                             <h2>About : </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Multi-service management software is an all-in-one tool designed for the efficiency of various activities, including the management of different types of businesses: hair salon, restaurants or home repair. The range of the tool makes it a suitable solution for any type of business, without taking into account the environment in which it is used. </p>
                             <ul>
-                                <li>Manages tasks, resources and accounts of your project</li>
-                                <li>Powerful to-do list management</li>
-                                <li>Detailed reference manual</li>
+                                <li>Makes the services offered to customers more reliable</li>
+                                <li>Optimizes the management of the company</li>
+                                <li>Saves time in completing tasks</li>
                                 <li>Simple installation</li>
                                 <li>Runs on all Linux, Unix, Windows, MacOS and several other operating systems</li>
                             </ul>

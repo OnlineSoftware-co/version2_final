@@ -1,3 +1,9 @@
+body{
+    background-image: url(../images/img/lander-top-corner.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right top;
+}
 .captchaIcon {
     color: black;
     border: 0;

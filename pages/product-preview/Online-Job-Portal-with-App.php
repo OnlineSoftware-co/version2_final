@@ -83,9 +83,9 @@
                         <div class="img-display">
                             <div class="img-showcase">
                                 <img class="preview" src="../../assets/images/img/job1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/job1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/job1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/job1.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/job2.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/job3.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/job4.png" alt="image">
                             </div>
                         </div>
                         <div class="img-select">
@@ -96,17 +96,17 @@
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="2">
-                                    <img class="preview" src="../../assets/images/img/job1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/job2.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
-                                    <img class="preview" src="../../assets/images/img/job1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/job3.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
-                                    <img class="preview" src="../../assets/images/img/job1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/job4.png" alt="image">
                                 </a>
                             </div>
                         </div>

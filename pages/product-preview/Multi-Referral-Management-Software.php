@@ -83,9 +83,9 @@
                         <div class="img-display">
                             <div class="img-showcase">
                                 <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/multireferral2.jpg" alt="image">
+                                <img class="preview" src="../../assets/images/img/multireferral3.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/multireferral4.png" alt="image">
                             </div>
                         </div>
                         <div class="img-select">
@@ -96,17 +96,17 @@
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="2">
-                                    <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/multireferral2.jpg" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
-                                    <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/multireferral3.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
-                                    <img class="preview" src="../../assets/images/img/multireferral1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/multireferral4.png" alt="image">
                                 </a>
                             </div>
                         </div>

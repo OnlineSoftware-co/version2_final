@@ -82,16 +82,16 @@
                         <h2 class="product-title">Complete end to end software for Chit Funds with App</h2>
                         <div class="img-display">
                             <div class="img-showcase">
+                                <img class="preview" src="../../assets/images/img/chit2.png" alt="image">
                                 <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
-                                <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/chit3.png" alt="image">
+                                <img class="preview" src="../../assets/images/img/chit4.png" alt="image">
                             </div>
                         </div>
                         <div class="img-select">
                             <div class="img-item">
                                 <a href="#" data-id="1">
-                                    <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/chit2.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
@@ -101,12 +101,12 @@
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="3">
-                                    <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/chit3.png" alt="image">
                                 </a>
                             </div>
                             <div class="img-item">
                                 <a href="#" data-id="4">
-                                    <img class="preview" src="../../assets/images/img/chit1.png" alt="image">
+                                    <img class="preview" src="../../assets/images/img/chit4.png" alt="image">
                                 </a>
                             </div>
                         </div>
