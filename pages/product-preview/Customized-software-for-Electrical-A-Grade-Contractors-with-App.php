@@ -132,26 +132,26 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half-alt"></i>
                             <i class="far fa-star"></i>
-                            <span>3.5(27)</span>
+                            <span>4.5(27)</span>
                         </div>
                         <div class="purchase-info">
                             <a href="../enquiry/index.php?product=13" type="button" class="btn p12"><i class="fas fa-envelope"></i> Place Enquiry </a>
                         </div>
 
                         <div class="social-links">
-                            <a href="#">
+                            <a href="https://www.facebook.com/abcinfomediapvtltd/">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/abc_infomedia">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.linkedin.com/in/abcinfomedia/">
+                                <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="#">
-                                <i class="fab fa-whatsapp"></i>
+                            <a href="tel:+919790030919 ">
+                            <i class="fas fa-phone-alt "></i></a>
                             </a>
-                            <a href="#">
+                            <a href="https://in.pinterest.com/pin/614459942884331094/">
                                 <i class="fab fa-pinterest"></i>
                             </a>
                         </div>
