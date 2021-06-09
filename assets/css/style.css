@@ -32,22 +32,18 @@ nav {
     color: var(--primary-dark);
 }
 
-.navEl:hover {
-    color: #0056b3;
-}
 
-.navEl.active,
+
 .logo,
 .hireMe {
     /* transform: rotate(360deg); */
     background: var(--secondary-blue);
     color: var(--primary-blue);
-    border-radius: 15px;
-    box-shadow: 0 0 10px #505050;
+
     transition: 0.3s all;
 }
 
-.navEl:hover,
+
 .abc:hover {
     transform: scale(1.2);
 }
