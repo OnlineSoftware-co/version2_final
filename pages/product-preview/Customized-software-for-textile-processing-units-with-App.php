@@ -137,7 +137,8 @@
                             <a href="../enquiry/index.php?product=3" type="button" class="btn p12"><i class="fas fa-envelope"></i> Place Enquiry </a>
                         </div>
 
-                        <a href="https://www.facebook.com/abcinfomediapvtltd/">
+                     <div class="social-links">
+                            <a href="https://www.facebook.com/abcinfomediapvtltd/">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             <a href="https://twitter.com/abc_infomedia">
