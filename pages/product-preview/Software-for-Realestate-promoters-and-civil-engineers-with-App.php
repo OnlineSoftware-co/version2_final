@@ -136,7 +136,7 @@ Its all-inclusive software providing everything you need from bid-to-bill in one
                             <span>4.6</span>
                         </div>
                         <div class="purchase-info">
-                            <a href="../enquiry/index.php?product=2" type="button" class="btn p12"><i class="fas fa-envelope"></i> Place Enquiry </a>
+                            <a href="../enquiry/index.php?product=1" type="button" class="btn p12"><i class="fas fa-envelope"></i> Place Enquiry </a>
                         </div>
 
                         <div class="social-links">

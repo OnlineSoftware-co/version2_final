@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST['submit']))
 {
+    $t1 = $_POST['t1'];
     $email=$_POST['email'];
     $name=$_POST['name'];
     $message=$_POST['message'];
@@ -11,7 +12,7 @@ if(isset($_POST['submit']))
 
     $enquiry_mail = "abcteam62021@gmail.com";
     $enquiry_subject = "Enquiry";
-    $enquiry_body = " Name :". $name ."\n Email : ".$email." \n Message :". $message;
+    $enquiry_body = " Name :". $name ."\n Email : ".$email." \n Product :". $t1." \n Message :". $message;
 
     /*storing data to DB
 

@@ -1,6 +1,7 @@
 #btnrefresh {
     color: black;
     border: 0;
+    background-color: white;
 }
 
 #captchaInput {
@@ -19,4 +20,5 @@
     border: none;
     font-weight: bold;
     width: 100px;
+    background-color: white;
 }
