@@ -135,7 +135,7 @@
                             <span>4.5(22)</span>
                         </div>
                         <div class="purchase-info">
-                            <a href="../enquiry/index.php?product=17" type="button" class="btn p12"><i class="fas fa-envelope"></i> Place Enquiry </a>
+                            <a href="../enquiry/index.php?product=16" type="button" class="btn p12"><i class="fas fa-envelope"></i> Place Enquiry </a>
                         </div>
 
                         <div class="social-links">

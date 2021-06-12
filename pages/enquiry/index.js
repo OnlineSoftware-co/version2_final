@@ -25,8 +25,9 @@ let btn = document.getElementById("submit"),
     email = document.getElementById("email"),
     messgae = document.getElementById("message"),
     captcha = document.getElementById("captcha"),
+    T1 =    document.getElementById("t1"),
     captchaInput = document.getElementById("captchaInput"),
-    uploadingText = "<h1>Uploading...</h1><br>" + "<h3>Please Wait</h3>",
+    uploadingText = "<h1>Sending your message</h1><br>" + "<h3>Please Wait</h3>",
     finalText =
     "<h1>Congratulations!</h1><br>" +
     "<h3>Your Enquiry has been Placed</h3>" +
@@ -66,11 +67,13 @@ submit.addEventListener("click", function() {
             name: sname.value,
             email: email.value,
             message: message.value,
+            t1:T1.innerText,    
         },
         success: function(data) {
             sname.value = "";
             email.value = "";
             message.value = "";
+            captchaInput.value="";
             error(finalText);
         },
     });

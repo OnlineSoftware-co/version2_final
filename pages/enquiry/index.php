@@ -105,7 +105,7 @@ if (isset($_GET['product']))
                             $json = json_decode($str, true);
 
                             ?>
-                            <h5><?php if (isset($_GET['product'])) echo 'Enquiry For: <b>' . print_r($json[$id]['name'], true) . '</b>'; ?></h5>
+                            <h5><?php if (isset($_GET['product'])) echo 'Enquiry For: <span id="t1">' . print_r($json[$id]['name'], true) . '</span>'; ?></h5>
                             <label for="email">Name<sup style="color:red">*</sup></label>
                             <input class="inp" type="text" name="name" id="name" placeholder="Enter Your name..." required>
 
@@ -117,10 +117,11 @@ if (isset($_GET['product']))
                             <textarea class="inp" name="message" id="message" placeholder="Enter Your Message" required></textarea>
 
 
-                            <div class="fl w100 p12" style="color:var(--black)"><input disabled class="w100" id="captcha" type="text" />
+                            <div class="fl w100 p12" style="color:var(--black)">
+                            <input disabled class="w100" id="captcha" type="text" />
                             <input type="button" id="btnrefresh" value="Refresh" onclick="DrawCaptcha();" /></div>
                             
-                            <p>Enter Recaptcha
+                            <p>Solve Recaptcha
                                 <input class="w100" type="text" id="captchaInput" />
                             </p>
 
